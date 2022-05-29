@@ -1,0 +1,506 @@
+2022-05-26 17:10:07.4715||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2022-05-26 17:10:10.0806||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 374940D3E7B73CA1E6019EA3E34DE8C43A878AEF) 
+2022-05-26 17:10:10.1116||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-05-26 17:10:10.1116||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-05-26 17:10:10.1116||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly RestaurantAPI 
+2022-05-26 17:10:10.1116||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-05-26 17:10:10.1116||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-05-26 17:10:10.1116||INFO|Microsoft.Hosting.Lifetime|Content root path: E:\C#\RestaurantAPI\RestaurantAPI 
+2022-05-26 17:10:10.1116||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2022-05-26 17:10:16.2446||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" accepted. 
+2022-05-26 17:10:16.2446||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" started. 
+2022-05-26 17:10:16.5871||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection "0HMHV57BIJQGJ" established using the following protocol: Tls12 
+2022-05-26 17:10:16.5871||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2022-05-26 17:10:16.6008||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-05-26 17:10:16.6008||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" received SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2022-05-26 17:10:16.6008||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-05-26 17:10:16.6008||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-05-26 17:10:16.6008||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" received HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS 
+2022-05-26 17:10:16.6008||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" received DATA frame for stream ID 1 with length 65 and flags END_STREAM 
+2022-05-26 17:10:16.6008||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-05-26 17:10:16.6189||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/api/restaurant/122 application/json 65 
+2022-05-26 17:10:16.6189||DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2022-05-26 17:10:16.6189||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 17:10:16.6484||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/restaurant/122' 
+2022-05-26 17:10:16.6484||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI)' with route pattern 'api/restaurant/{id}' is valid for the request path '/api/restaurant/122' 
+2022-05-26 17:10:16.6484||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI)' 
+2022-05-26 17:10:16.6484||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI)' 
+2022-05-26 17:10:16.6484||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2022-05-26 17:10:16.6703||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "Restaurant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[RestaurantAPI.Models.RestaurantDto] Get(Int32) on controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI). 
+2022-05-26 17:10:16.6703||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-05-26 17:10:16.6703||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2022-05-26 17:10:16.6703||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2022-05-26 17:10:16.6703||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-05-26 17:10:16.6703||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): None 
+2022-05-26 17:10:16.6703||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2022-05-26 17:10:16.7587||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2022-05-26 17:10:16.7587||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Int32' ... 
+2022-05-26 17:10:16.7587||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ... 
+2022-05-26 17:10:16.7587||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2022-05-26 17:10:16.7587||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2022-05-26 17:10:16.7587||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Int32' ... 
+2022-05-26 17:10:16.7587||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Int32'. 
+2022-05-26 17:10:16.7587||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 17:10:16.7587||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 17:10:16.7729||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI) - Validation state: Valid 
+2022-05-26 17:10:16.7729||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI) with arguments (122) 
+2022-05-26 17:10:16.9646||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 17:10:16.9646||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 17:10:16.9646||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI) in 294.1252ms 
+2022-05-26 17:10:16.9646||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI)' 
+2022-05-26 17:10:16.9774||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" sending HEADERS frame for stream ID 1 with length 41 and flags END_HEADERS 
+2022-05-26 17:10:16.9774||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" sending DATA frame for stream ID 1 with length 20 and flags NONE 
+2022-05-26 17:10:16.9774||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM 
+2022-05-26 17:10:16.9774||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/api/restaurant/122 application/json 65 - 404 - - 363.7844ms 
+2022-05-26 17:10:16.9774||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ", Request id "0HMHV57BIJQGJ:00000001": started reading request body. 
+2022-05-26 17:10:16.9774||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ", Request id "0HMHV57BIJQGJ:00000001": done reading request body. 
+2022-05-26 17:10:23.3478||INFO|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2022-05-26 17:10:23.3478||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping 
+2022-05-26 17:10:23.3906||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" is closing. 
+2022-05-26 17:10:23.3906||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" is closed. The last processed stream ID was 1. 
+2022-05-26 17:10:23.3906||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0 
+2022-05-26 17:10:23.4009||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV57BIJQGJ" stopped. 
+2022-05-26 17:10:23.4009||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMHV57BIJQGJ" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-05-26 17:10:23.4009||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped 
+2022-05-26 19:04:30.4612||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2022-05-26 19:04:31.7888||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 374940D3E7B73CA1E6019EA3E34DE8C43A878AEF) 
+2022-05-26 19:04:31.8165||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-05-26 19:04:31.8165||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-05-26 19:04:31.8165||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly RestaurantAPI 
+2022-05-26 19:04:31.8165||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-05-26 19:04:31.8165||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-05-26 19:04:31.8165||INFO|Microsoft.Hosting.Lifetime|Content root path: E:\C#\RestaurantAPI\RestaurantAPI 
+2022-05-26 19:04:31.8165||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2022-05-26 19:05:00.7808||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF25" accepted. 
+2022-05-26 19:05:00.7808||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF25" started. 
+2022-05-26 19:05:00.8076||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5000/ - - 
+2022-05-26 19:05:00.8076||DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2022-05-26 19:05:00.8076||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 19:05:00.8076||DEBUG|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Https port '5001' discovered from server endpoints. 
+2022-05-26 19:05:00.8232||DEBUG|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Redirecting to 'https://localhost:5001/'. 
+2022-05-26 19:05:00.8232||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF25" completed keep alive response. 
+2022-05-26 19:05:00.8232||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5000/ - - - 307 0 - 19.3795ms 
+2022-05-26 19:05:00.8232||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" accepted. 
+2022-05-26 19:05:00.8232||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" started. 
+2022-05-26 19:05:00.8665||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection "0HMHV77FALF26" established using the following protocol: Tls12 
+2022-05-26 19:05:00.8665||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2022-05-26 19:05:00.8665||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-05-26 19:05:00.8665||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" received SETTINGS frame for stream ID 0 with length 24 and flags NONE 
+2022-05-26 19:05:00.8665||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-05-26 19:05:00.8665||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-05-26 19:05:00.8665||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" received HEADERS frame for stream ID 1 with length 455 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-05-26 19:05:00.8811||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-05-26 19:05:00.8811||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/ - - 
+2022-05-26 19:05:00.8811||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 19:05:00.8961||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2022-05-26 19:05:00.9156||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/' 
+2022-05-26 19:05:00.9156||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2022-05-26 19:05:00.9156||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending HEADERS frame for stream ID 1 with length 45 and flags END_STREAM, END_HEADERS 
+2022-05-26 19:05:00.9156||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 37.0750ms 
+2022-05-26 19:05:08.8057||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" received HEADERS frame for stream ID 3 with length 28 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-05-26 19:05:08.8057||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger - - 
+2022-05-26 19:05:08.8057||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 19:05:08.8057||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending HEADERS frame for stream ID 3 with length 61 and flags END_STREAM, END_HEADERS 
+2022-05-26 19:05:08.8057||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 1.5883ms 
+2022-05-26 19:05:08.8057||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" received HEADERS frame for stream ID 5 with length 36 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-05-26 19:05:08.8057||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - - 
+2022-05-26 19:05:08.8057||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 19:05:08.8631||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending HEADERS frame for stream ID 5 with length 28 and flags END_HEADERS 
+2022-05-26 19:05:08.8631||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 5 with length 4755 and flags NONE 
+2022-05-26 19:05:08.8631||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM 
+2022-05-26 19:05:08.8631||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 52.8676ms 
+2022-05-26 19:05:08.8671||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" received HEADERS frame for stream ID 7 with length 106 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-05-26 19:05:08.8838||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending HEADERS frame for stream ID 7 with length 79 and flags END_HEADERS 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 7 with length 16384 and flags NONE 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 7 with length 16384 and flags NONE 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 7 with length 16384 and flags NONE 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 7 with length 16384 and flags NONE 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 7 with length 16384 and flags NONE 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 7 with length 16384 and flags NONE 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 7 with length 16384 and flags NONE 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 7 with length 16384 and flags NONE 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 7 with length 12871 and flags NONE 
+2022-05-26 19:05:08.8838||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM 
+2022-05-26 19:05:08.8838||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 143943 text/css 5.9315ms 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" received HEADERS frame for stream ID 9 with length 52 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" received HEADERS frame for stream ID 11 with length 50 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-05-26 19:05:08.8838||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 19:05:08.8838||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending HEADERS frame for stream ID 11 with length 57 and flags END_HEADERS 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending HEADERS frame for stream ID 9 with length 35 and flags END_HEADERS 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.8838||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 11806 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 16384 and flags NONE 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 13743 and flags NONE 
+2022-05-26 19:05:08.9002||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM 
+2022-05-26 19:05:08.9002||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM 
+2022-05-26 19:05:08.9002||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 1095087 application/javascript 14.1816ms 
+2022-05-26 19:05:08.9002||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 14.1284ms 
+2022-05-26 19:05:09.0634||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" received HEADERS frame for stream ID 13 with length 66 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-05-26 19:05:09.0634||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - 
+2022-05-26 19:05:09.0634||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 19:05:09.0804||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" received HEADERS frame for stream ID 15 with length 96 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-05-26 19:05:09.0804||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - 
+2022-05-26 19:05:09.0804||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 19:05:09.0804||TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2022-05-26 19:05:09.0804||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending HEADERS frame for stream ID 15 with length 41 and flags END_HEADERS 
+2022-05-26 19:05:09.0804||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 15 with length 628 and flags NONE 
+2022-05-26 19:05:09.0804||INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2022-05-26 19:05:09.0804||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 15 with length 0 and flags END_STREAM 
+2022-05-26 19:05:09.0804||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 0.2903ms 
+2022-05-26 19:05:09.1320||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending HEADERS frame for stream ID 13 with length 35 and flags END_HEADERS 
+2022-05-26 19:05:09.1320||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 13 with length 7268 and flags NONE 
+2022-05-26 19:05:09.1320||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM 
+2022-05-26 19:05:09.1320||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 68.6022ms 
+2022-05-26 19:07:01.8771||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF25" disconnecting. 
+2022-05-26 19:07:01.8771||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF25" stopped. 
+2022-05-26 19:07:01.8771||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMHV77FALF25" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-05-26 19:07:10.8834||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" is closing. 
+2022-05-26 19:07:10.8834||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" is closed. The last processed stream ID was 15. 
+2022-05-26 19:07:10.8834||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0 
+2022-05-26 19:07:10.8834||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMHV77FALF26" received FIN. 
+2022-05-26 19:07:10.8834||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMHV77FALF26" sending FIN because: "The client closed the connection." 
+2022-05-26 19:07:10.8834||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF26" stopped. 
+2022-05-26 19:07:21.5627||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" accepted. 
+2022-05-26 19:07:21.5627||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" started. 
+2022-05-26 19:07:21.5627||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection "0HMHV77FALF27" established using the following protocol: Tls12 
+2022-05-26 19:07:21.5627||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2022-05-26 19:07:21.5627||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-05-26 19:07:21.5627||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" received SETTINGS frame for stream ID 0 with length 24 and flags NONE 
+2022-05-26 19:07:21.5627||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-05-26 19:07:21.5627||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-05-26 19:07:21.5627||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" received HEADERS frame for stream ID 1 with length 367 and flags END_STREAM, END_HEADERS, PRIORITY 
+2022-05-26 19:07:21.5627||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-05-26 19:07:21.5627||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/api/restaurant - - 
+2022-05-26 19:07:21.5627||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 19:07:21.5627||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2022-05-26 19:07:21.5627||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/restaurant' 
+2022-05-26 19:07:21.5688||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' with route pattern 'api/restaurant' is valid for the request path '/api/restaurant' 
+2022-05-26 19:07:21.5688||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2022-05-26 19:07:21.5688||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2022-05-26 19:07:21.5688||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2022-05-26 19:07:21.5688||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Restaurant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RestaurantAPI.Models.RestaurantDto]] GetAll() on controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI). 
+2022-05-26 19:07:21.5688||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-05-26 19:07:21.5688||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2022-05-26 19:07:21.5688||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022-05-26 19:07:21.5688||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-05-26 19:07:21.5688||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022-05-26 19:07:21.5688||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2022-05-26 19:07:21.6682||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2022-05-26 19:07:21.6682||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:07:21.6682||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:07:21.6682||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:07:21.6682||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:07:21.6682||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI) - Validation state: Valid 
+2022-05-26 19:07:21.9184||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 244.0186ms. 
+2022-05-26 19:07:21.9184||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:07:21.9184||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:07:21.9184||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:07:21.9184||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:07:21.9184||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-05-26 19:07:21.9184||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-05-26 19:07:21.9184||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2022-05-26 19:07:21.9184||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2022-05-26 19:07:21.9184||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2022-05-26 19:07:21.9184||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2022-05-26 19:07:21.9184||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2022-05-26 19:07:21.9184||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2022-05-26 19:07:21.9184||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2022-05-26 19:07:21.9184||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RestaurantAPI.Models.RestaurantDto, RestaurantAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2022-05-26 19:07:21.9329||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" sending HEADERS frame for stream ID 1 with length 74 and flags END_HEADERS 
+2022-05-26 19:07:21.9329||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" sending DATA frame for stream ID 1 with length 907 and flags NONE 
+2022-05-26 19:07:21.9329||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2022-05-26 19:07:21.9329||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-05-26 19:07:21.9329||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-05-26 19:07:21.9329||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI) in 350.4013ms 
+2022-05-26 19:07:21.9329||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2022-05-26 19:07:21.9329||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM 
+2022-05-26 19:07:21.9329||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/api/restaurant - - - 200 - application/json;+charset=utf-8 373.3160ms 
+2022-05-26 19:08:52.3143||INFO|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2022-05-26 19:08:52.3143||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping 
+2022-05-26 19:08:52.3296||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" is closing. 
+2022-05-26 19:08:52.3296||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" is closed. The last processed stream ID was 1. 
+2022-05-26 19:08:52.3296||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0 
+2022-05-26 19:08:52.3296||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMHV77FALF27" received FIN. 
+2022-05-26 19:08:52.3296||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV77FALF27" stopped. 
+2022-05-26 19:08:52.3296||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMHV77FALF27" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-05-26 19:08:52.3296||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped 
+2022-05-26 19:29:25.3201||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2022-05-26 19:29:26.6186||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 374940D3E7B73CA1E6019EA3E34DE8C43A878AEF) 
+2022-05-26 19:29:26.6473||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-05-26 19:29:26.6473||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-05-26 19:29:26.6473||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly RestaurantAPI 
+2022-05-26 19:29:26.6473||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-05-26 19:29:26.6473||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-05-26 19:29:26.6473||INFO|Microsoft.Hosting.Lifetime|Content root path: E:\C#\RestaurantAPI\RestaurantAPI 
+2022-05-26 19:29:26.6473||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2022-05-26 19:29:46.0117||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" accepted. 
+2022-05-26 19:29:46.0117||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" started. 
+2022-05-26 19:29:46.3165||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection "0HMHV7L9UU258" established using the following protocol: Tls12 
+2022-05-26 19:29:46.3269||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2022-05-26 19:29:46.3269||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-05-26 19:29:46.3269||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" received SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2022-05-26 19:29:46.3269||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-05-26 19:29:46.3269||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-05-26 19:29:46.3269||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" received HEADERS frame for stream ID 1 with length 64 and flags END_HEADERS 
+2022-05-26 19:29:46.3351||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" received DATA frame for stream ID 1 with length 65 and flags END_STREAM 
+2022-05-26 19:29:46.3351||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-05-26 19:29:46.3351||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/api/restaurant application/json 65 
+2022-05-26 19:29:46.3351||DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2022-05-26 19:29:46.3351||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 19:29:46.3623||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2022-05-26 19:29:46.3835||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/restaurant' 
+2022-05-26 19:29:46.3835||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' with route pattern 'api/restaurant' is valid for the request path '/api/restaurant' 
+2022-05-26 19:29:46.3835||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2022-05-26 19:29:46.3835||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2022-05-26 19:29:46.3835||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2022-05-26 19:29:46.3984||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Restaurant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RestaurantAPI.Models.RestaurantDto]] GetAll() on controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI). 
+2022-05-26 19:29:46.3984||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-05-26 19:29:46.3984||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2022-05-26 19:29:46.3984||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022-05-26 19:29:46.3984||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-05-26 19:29:46.3984||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022-05-26 19:29:46.3984||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2022-05-26 19:29:46.4871||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2022-05-26 19:29:46.4871||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:29:46.4871||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:29:46.4871||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:29:46.4871||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:29:46.4906||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI) - Validation state: Valid 
+2022-05-26 19:29:46.7183||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 224.8715ms. 
+2022-05-26 19:29:46.7183||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:29:46.7183||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:29:46.7183||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:29:46.7183||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:29:46.7183||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-05-26 19:29:46.7183||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-05-26 19:29:46.7183||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2022-05-26 19:29:46.7183||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2022-05-26 19:29:46.7183||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2022-05-26 19:29:46.7183||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2022-05-26 19:29:46.7183||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2022-05-26 19:29:46.7183||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2022-05-26 19:29:46.7183||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RestaurantAPI.Models.RestaurantDto, RestaurantAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2022-05-26 19:29:46.7481||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" sending HEADERS frame for stream ID 1 with length 74 and flags END_HEADERS 
+2022-05-26 19:29:46.7481||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" sending DATA frame for stream ID 1 with length 907 and flags NONE 
+2022-05-26 19:29:46.7481||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2022-05-26 19:29:46.7481||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-05-26 19:29:46.7481||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-05-26 19:29:46.7481||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI) in 350.1925ms 
+2022-05-26 19:29:46.7481||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2022-05-26 19:29:46.7481||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM 
+2022-05-26 19:29:46.7481||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/api/restaurant application/json 65 - 200 - application/json;+charset=utf-8 414.0090ms 
+2022-05-26 19:29:46.7563||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258", Request id "0HMHV7L9UU258:00000001": started reading request body. 
+2022-05-26 19:29:46.7563||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258", Request id "0HMHV7L9UU258:00000001": done reading request body. 
+2022-05-26 19:31:40.5231||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" received HEADERS frame for stream ID 3 with length 27 and flags END_HEADERS 
+2022-05-26 19:31:40.5231||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" received DATA frame for stream ID 3 with length 65 and flags END_STREAM 
+2022-05-26 19:31:40.5231||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/api/restaurant/456 application/json 65 
+2022-05-26 19:31:40.5231||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 19:31:40.5231||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2022-05-26 19:31:40.5231||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/restaurant/456' 
+2022-05-26 19:31:40.5231||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI)' with route pattern 'api/restaurant/{id}' is valid for the request path '/api/restaurant/456' 
+2022-05-26 19:31:40.5231||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI)' 
+2022-05-26 19:31:40.5231||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI)' 
+2022-05-26 19:31:40.5231||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "Restaurant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[RestaurantAPI.Models.RestaurantDto] Get(Int32) on controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI). 
+2022-05-26 19:31:40.5231||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-05-26 19:31:40.5231||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2022-05-26 19:31:40.5231||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022-05-26 19:31:40.5231||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-05-26 19:31:40.5231||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022-05-26 19:31:40.5231||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2022-05-26 19:31:40.5231||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2022-05-26 19:31:40.5406||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Int32' ... 
+2022-05-26 19:31:40.5406||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ... 
+2022-05-26 19:31:40.5406||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2022-05-26 19:31:40.5406||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Int32'. 
+2022-05-26 19:31:40.5406||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Int32' ... 
+2022-05-26 19:31:40.5406||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Int32'. 
+2022-05-26 19:31:40.5406||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:31:40.5406||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:31:40.5406||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:31:40.5406||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:31:40.5406||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI) - Validation state: Valid 
+2022-05-26 19:31:40.5406||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI) with arguments (456) 
+2022-05-26 19:31:40.5957||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:31:40.5957||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:31:40.5957||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:31:40.5957||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:31:40.5957||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI) in 60.472ms 
+2022-05-26 19:31:40.5957||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RestaurantAPI.Controllers.RestaurantController.Get (RestaurantAPI)' 
+2022-05-26 19:31:40.5957||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" sending HEADERS frame for stream ID 3 with length 33 and flags END_HEADERS 
+2022-05-26 19:31:40.5957||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" sending DATA frame for stream ID 3 with length 20 and flags NONE 
+2022-05-26 19:31:40.5957||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM 
+2022-05-26 19:31:40.5957||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/api/restaurant/456 application/json 65 - 404 - - 69.5872ms 
+2022-05-26 19:31:40.5957||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258", Request id "0HMHV7L9UU258:00000003": started reading request body. 
+2022-05-26 19:31:40.5957||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258", Request id "0HMHV7L9UU258:00000003": done reading request body. 
+2022-05-26 19:32:37.2708||INFO|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2022-05-26 19:32:37.2715||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping 
+2022-05-26 19:32:37.2715||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" is closing. 
+2022-05-26 19:32:37.2884||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" is closed. The last processed stream ID was 3. 
+2022-05-26 19:32:37.2884||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0 
+2022-05-26 19:32:37.2884||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7L9UU258" stopped. 
+2022-05-26 19:32:37.2884||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMHV7L9UU258" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2022-05-26 19:32:37.2884||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped 
+2022-05-26 19:32:48.6120||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2022-05-26 19:32:49.6993||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 374940D3E7B73CA1E6019EA3E34DE8C43A878AEF) 
+2022-05-26 19:32:49.7335||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001 
+2022-05-26 19:32:49.7335||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000 
+2022-05-26 19:32:49.7335||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly RestaurantAPI 
+2022-05-26 19:32:49.7335||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-05-26 19:32:49.7335||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-05-26 19:32:49.7335||INFO|Microsoft.Hosting.Lifetime|Content root path: E:\C#\RestaurantAPI\RestaurantAPI 
+2022-05-26 19:32:49.7335||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2022-05-26 19:33:14.5759||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK" accepted. 
+2022-05-26 19:33:14.5759||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK" started. 
+2022-05-26 19:33:14.8824||DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection "0HMHV7N83V2OK" established using the following protocol: Tls12 
+2022-05-26 19:33:14.8824||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2022-05-26 19:33:14.8824||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-05-26 19:33:14.8824||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK" received SETTINGS frame for stream ID 0 with length 18 and flags NONE 
+2022-05-26 19:33:14.8824||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-05-26 19:33:14.8824||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0 
+2022-05-26 19:33:14.8824||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK" received HEADERS frame for stream ID 1 with length 64 and flags END_HEADERS 
+2022-05-26 19:33:14.8993||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK" received DATA frame for stream ID 1 with length 65 and flags END_STREAM 
+2022-05-26 19:33:14.8993||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK" received SETTINGS frame for stream ID 0 with length 0 and flags ACK 
+2022-05-26 19:33:14.8993||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/api/restaurant application/json 65 
+2022-05-26 19:33:14.8993||DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2022-05-26 19:33:14.8993||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-05-26 19:33:14.9208||DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2022-05-26 19:33:14.9386||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/restaurant' 
+2022-05-26 19:33:14.9386||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' with route pattern 'api/restaurant' is valid for the request path '/api/restaurant' 
+2022-05-26 19:33:14.9386||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2022-05-26 19:33:14.9386||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2022-05-26 19:33:14.9435||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2022-05-26 19:33:14.9435||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Restaurant"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RestaurantAPI.Models.RestaurantDto]] GetAll() on controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI). 
+2022-05-26 19:33:14.9435||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-05-26 19:33:14.9435||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2022-05-26 19:33:14.9435||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022-05-26 19:33:14.9435||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-05-26 19:33:14.9435||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022-05-26 19:33:14.9435||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2022-05-26 19:33:15.0103||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller RestaurantAPI.Controllers.RestaurantController (RestaurantAPI) 
+2022-05-26 19:33:15.0103||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:33:15.0103||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:33:15.0103||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:33:15.0103||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:33:15.0103||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI) - Validation state: Valid 
+2022-05-26 19:33:21.5204||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6505.4653ms. 
+2022-05-26 19:33:21.5204||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:33:21.5204||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-05-26 19:33:21.5204||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:33:21.5204||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-05-26 19:33:21.5204||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-05-26 19:33:21.5204||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-05-26 19:33:21.5213||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2022-05-26 19:33:21.5213||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2022-05-26 19:33:21.5213||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2022-05-26 19:33:21.5213||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2022-05-26 19:33:21.5213||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2022-05-26 19:33:21.5213||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2022-05-26 19:33:21.5213||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RestaurantAPI.Models.RestaurantDto, RestaurantAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2022-05-26 19:33:21.5494||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK" sending HEADERS frame for stream ID 1 with length 74 and flags END_HEADERS 
+2022-05-26 19:33:21.5494||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK" sending DATA frame for stream ID 1 with length 907 and flags NONE 
+2022-05-26 19:33:21.5494||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2022-05-26 19:33:21.5494||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-05-26 19:33:21.5494||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-05-26 19:33:21.5494||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI) in 6599.3286ms 
+2022-05-26 19:33:21.5494||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RestaurantAPI.Controllers.RestaurantController.GetAll (RestaurantAPI)' 
+2022-05-26 19:33:21.5538||INFO|RestaurantAPI.Middleware.RequestTimeMiddleware|Request [GET] at /api/restaurant took 6641 ms 
+2022-05-26 19:33:21.5538||TRACE|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM 
+2022-05-26 19:33:21.5538||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/api/restaurant application/json 65 - 200 - application/json;+charset=utf-8 6652.3433ms 
+2022-05-26 19:33:21.5538||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK", Request id "0HMHV7N83V2OK:00000001": started reading request body. 
+2022-05-26 19:33:21.5538||DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMHV7N83V2OK", Request id "0HMHV7N83V2OK:00000001": done reading request body. 

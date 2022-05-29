@@ -1,0 +1,1 @@
+2022-05-26 19:33:21.5538||INFO|RestaurantAPI.Middleware.RequestTimeMiddleware|Request [GET] at /api/restaurant took 6641 ms 
